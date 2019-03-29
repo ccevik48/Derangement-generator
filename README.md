@@ -22,9 +22,9 @@ To calculate the number of derangements - also called the subfactorial of n (rep
 
 where n is the number of elements, e = 2.718281828, and [ ] represents the nearest integer function. Example:
 
-!4 = [(4!)/e]
-!4 = [24/e] 
-!4 = [8.829]
+!4 = [(4!)/e]  =>  
+!4 = [24/e]    =>  
+!4 = [8.829]   =>  
 !4 = 9
 
 
