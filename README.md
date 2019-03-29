@@ -9,10 +9,10 @@ Wikipedia article: https://en.wikipedia.org/wiki/Derangement
 EXAMPLE
 Suppose that a professor gave a test to 4 students – A, B, C, and D – and wants to let them grade each other's tests. Of course, no student should grade his or her own test. How many ways could the professor hand the tests back to the students for grading, such that no student received his or her own test back? Out of 24 possible permutations (4!) for handing back the tests:
 
-ABCD,	ABDC,	ACBD,	ACDB,	ADBC,	ADCB,
-BACD,	BADC,	BCAD,	BCDA,	BDAC,	BDCA,
-CABD,	CADB,	CBAD,	CBDA,	CDAB,	CDBA,
-DABC,	DACB,	DBAC,	DBCA,	DCAB,	DCBA.
+ABCD,	ABDC,	ACBD,	ACDB,	ADBC,	ADCB, 
+BACD,	BADC,	BCAD,	BCDA,	BDAC,	BDCA, 
+CABD,	CADB,	CBAD,	CBDA,	CDAB,	CDBA, 
+DABC,	DACB,	DBAC,	DBCA,	DCAB,	DCBA. 
 
 DABC, BADC, CADB,	BCDA, BDAC, CDAB, DCAB, CDBA, and DCBA are the only nine derangements.
 
@@ -22,9 +22,9 @@ To calculate the number of derangements - also called the subfactorial of n (rep
 
 where n is the number of elements, e = 2.718281828, and [ ] represents the nearest integer function. Example:
 
-!4 = [(4!)/e]  =>  
-!4 = [24/e]    =>  
-!4 = [8.829]   =>  
+!4 = [(4!)/e]    
+!4 = [24/e]      
+!4 = [8.829]     
 !4 = 9
 
 
